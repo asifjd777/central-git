@@ -15,7 +15,12 @@
       <scope>test</scope>
     </dependency>
 
-  <build>
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-web</artifactId>
+    <version>5.2.23.RELEASE</version>
+  </dependency>
+build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -24,7 +29,6 @@
         </plugin>
     </plugins>
 </build>
-
 
 
   </dependencies>
